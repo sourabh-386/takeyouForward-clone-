@@ -5,22 +5,37 @@ import Home from './pages/home/Home'
 
 const App = () => {
   return (
-    <div className='main_app_block'>
+    <div className="app_top">
 
-      <div className="top_box">
+      <div className="top_box" style={{ position: 'absolute', width: '100%' }}>
         <Top />
       </div>
 
-      <div className="social_box">
-        <Social />
-      </div>
+      <div className='main_app_block'>
 
-      <div className="navbar_box">
-        <Navbar />
-      </div>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+       
+        <div className='app_box'>
 
-      <div className="home_box">
-        <Home />
+          <div className="social_box">
+            <Social />
+          </div>
+          <hr  style={{opacity:'0.5'}}/>
+
+          <div className="navbar_box">
+            <Navbar />
+          </div>
+
+          <div className="home_box">
+            <Home />
+          </div>
+
+        </div>
+
       </div>
 
     </div>

@@ -1,0 +1,13 @@
+.top{
+    /* border: 1px solid black; */
+    padding: 14px;
+    /* position: absolute; */
+    width: 100%;
+    text-align: center;
+    color: red;
+    background-color: white;
+    z-index: 2;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    font-family: "Titillium Web", arial, helvetica, sans-serif;
+    font-weight: 600;
+}
