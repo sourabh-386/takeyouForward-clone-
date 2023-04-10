@@ -18,13 +18,13 @@ const App = () => {
         <br />
         <br />
         <br />
-       
+
         <div className='app_box'>
 
           <div className="social_box">
             <Social />
           </div>
-          <hr  style={{opacity:'0.5'}}/>
+          <hr style={{ opacity: '0.5' }} />
 
           <div className="navbar_box">
             <Navbar />
@@ -35,7 +35,9 @@ const App = () => {
           </div>
 
         </div>
-
+        <center>Copyright © 2023 takeuforward | All rights reserved</center>
+        <br />
+        <br />
       </div>
 
     </div>

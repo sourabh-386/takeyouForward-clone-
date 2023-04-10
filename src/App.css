@@ -1,10 +1,10 @@
 .main_app_block{
     max-width: 1500px;
-    height: 1700px;
+    /* height: 1700px; */
     background-color: white;
     margin: auto;
 }
 .app_box{
-    width: 90%;
+    width: 88%;
     margin: auto;
 }

@@ -1,0 +1,55 @@
+.aside{
+    font-family: "Titillium Web", arial, helvetica, sans-serif;
+
+}
+
+.aside_sub{
+    font-family: 'Amaranth', sans-serif;
+    font-size: 20px;
+}
+.aside_form input{
+height: 45px;
+width: 80%;
+padding-left: 10px;
+font-size: 20px;
+}
+.aside_btn{
+    cursor: pointer;
+    display: block;
+    margin-top: 15px;
+    width: 160px;
+    height: 48px;
+    background-color: #EE4B2B;
+    color: white;
+    border: none;
+    font-size: 16px;
+
+} 
+.aside_search_btn{
+    display: flex;
+}
+.aside_search_btn input{
+    height: 45px;
+width: 70%;
+}
+.aside_search_btn button{
+    cursor: pointer;
+    height: 45px;
+    margin-left: 10px;
+    width: 70px;
+    font-size: 16px;
+
+
+}
+@media only screen and (max-width:900px){
+    .aside_search_btn{
+        justify-content: space-between;
+    }
+    .aside_search_btn input{
+        height: 45px;
+    width: 90%;
+    }
+    .aside_form input{
+        width: 100%;
+    }
+}

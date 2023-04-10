@@ -8,21 +8,26 @@
     margin-bottom: 70px;
 }
 .social_logo h1{
-    font-size: 40px;
+    font-size: 43px;
     font-family: 'Amaranth', sans-serif;
+    /* text-decoration: none; */
 
 }
 .social_logo p{
     font-family: "Titillium Web", arial, helvetica, sans-serif;
     color: #303030;
+    font-size: 17px;
 
     margin-top: 15px;
 
 }
 .social_logo h1 a{
-    /* text-decoration: none; */
+    text-decoration: none;
     color: rgb(39, 38, 38);
     opacity: 0.95;
+}
+.social_logo h1 a:hover{
+    text-decoration: underline;
 }
 
 .social_media_link a img{

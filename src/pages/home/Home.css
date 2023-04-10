@@ -1,0 +1,59 @@
+.home {
+    /* border: 1px solid black; */
+    display: grid;
+    grid-template-columns: 1.45fr .55fr;
+
+}
+
+
+.home_aside {
+    /* border: 1px solid black; */
+
+}
+
+.home_main_fix {
+    padding-right: 30px;
+    height: 2000px;
+    overflow-y: hidden;
+    /* position: relative; */
+    /* border: 1px solid black; */
+
+
+}
+.home_main{
+
+    position: relative;
+}
+.home_caintainbtn{
+    
+    height: 2100px;
+    /* border: 1px solid black; */
+}
+
+
+.lowerbtn button {
+    background-color: #303030;
+    color: white;
+    width: 40px;
+    height: 40px;
+    margin: 2px;
+    border: none;
+}
+
+@media only screen and (max-width:900px){
+    .home{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media only screen and (max-width:500px){
+    .home_main_fix{
+        height: 1980px;
+        padding-right: 0px;
+    }
+    .home_caintainbtn{
+    
+        height: 2080px;
+        /* border: 1px solid black; */
+    }
+}

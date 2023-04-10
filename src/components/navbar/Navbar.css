@@ -8,20 +8,27 @@
 }
 
 .navbar p {
-    margin-left: 15px;
-    margin-right: 15px;
-    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    /* margin-bottom: 20px; */
+    cursor: pointer;
+    font-size: 17px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /* margin-bottom: 10px; */
 }
+
 
 .navbar_line {
     width: 150px;
     height: 5px;
     background-color: #303030;
+    display: none;
 }
 
 .navbar_menu {
     font-family: "Titillium Web", arial, helvetica, sans-serif;
-    padding: 10px;
+    padding: 3px;
     border: 1px solid white;
     width: 150px;
     display: flex;
@@ -43,6 +50,33 @@
     margin-right: 10px;
 }
 
+.more_subj {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    background-color: #303030;
+    position: absolute;
+    z-index: 1;
+    transition: all ease-in-out 0.3s;
+}
+
+
+.more_subj p {
+    background-color: #303030;
+    color: white;
+    margin: 0.3px;
+    padding: 10px;
+
+}
+
+.more_subj p:hover {
+    background-color: #3f3d3d;
+
+}
+
+/* checking */
+
 @media only screen and (max-width:900px) {
     .navbar_menu {
         display: flex;
@@ -56,9 +90,13 @@
 
     }
 
+    .navbar_line {
+        display: flex;
+    }
+
     .navbar p {
         display: flex;
-        align-items: center;
+        /* align-items: center; */
         background-color: #303030;
         height: 60px;
         color: white;
@@ -66,10 +104,36 @@
         margin: 0px;
         padding-left: 20px;
         justify-content: space-between;
-        padding-right: 30px;
+        /* padding-right: 30px; */
+        flex-direction: column;
+        position: relative;
+        /* overflow: hidden; */
+        height: fit-content;
+        margin-bottom: 1px;
+    }
+
+    .navbar p:hover {
+        background-color: #3f3d3d;
+
     }
 
     .navbar p i {
         font-size: 20px;
+        position: absolute;
+        right: 20px;
+        font: bold;
+    }
+
+    .more_subj {
+        position: relative;
+        width: 102.5%;
+        top: 20px;
+       right: 18px;
+        display: flex;
+        justify-content: center;
+    }
+    .more_subj p{
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
 }
